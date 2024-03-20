@@ -1,0 +1,73 @@
+body{
+margin: 0PX;
+}
+
+    .container{
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1rem;
+
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .top{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+
+    input{
+        outline: none;
+        border: none;
+        margin-bottom: 1rem;
+        width: 400PX;
+        padding: 0 0.5rem;
+        border-bottom: 1PX solid black;
+
+
+    }
+
+
+    .ADD{
+        background-color: black;
+        color: white;
+        padding: 0.5REM;
+        margin-bottom: 1REM;
+        border-radius: 5PX;
+        cursor: pointer;
+    }
+
+    .todo{
+        position: relative;
+        margin-top: 1rem;
+        background-color: black;
+        color: white;
+        padding: 1.5rem 3rem;
+        border-radius: 5px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .icons{
+    
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        display: flex;
+        gap: 0.5rem;
+
+    }
+
+    .icons{
+        cursor: pointer;
+        font-size: 20px;
+
+    }
+
+
